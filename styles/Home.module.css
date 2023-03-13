@@ -1,0 +1,34 @@
+.imageContainer{
+    width: 4.5vw;
+    /* height: 4.5vw; */
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.image:hover {
+    opacity: 0.5;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(20,4.5vw);
+    grid-template-rows: repeat(20,4.5vw);
+    justify-content: center;
+    background-color: black;
+}
+
+.stats {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    z-index: 100;
+    pointer-events: none;
+}
